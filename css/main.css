@@ -1,0 +1,150 @@
+/* Tu CSS va aqui */
+.naranja{
+	color: #FF7826;
+}
+.bgn{
+	background-color: #FF7826;
+}
+.bot,.blanc{
+	color: white;
+}
+.neg{
+	background-color: #1F1F1F;
+}
+header{
+	background-image: url("../img/header.jpg");
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 45em;
+}
+h1:hover,a:hover{
+	color:#FF7826 !important; 
+}
+h2{
+	color: #FFFFFF !important;
+	font-weight: bold !important;
+	padding-top: 10%;
+}
+hr{
+	height: .3em !important;
+	background-color: #FF7826;
+	width: 50px;
+	border: none !important;
+}
+.bot{
+	background-color: #FF7826;
+	border: none;
+	padding: .5em 1.5em;
+	border-radius: 3em;
+	margin-top: 5%;
+}
+.chik{
+	margin-top: 10% !important;
+}
+.chika{
+	margin-top: 5%;
+}
+#sm{
+	background-color: #FFFFFF;
+}
+#tam{
+	height: 25em;
+	padding-top: 7%;
+}
+.mga{
+	margin: auto !important;
+}
+.tab{
+	padding: 0% !important;
+}
+.bl{
+	background-color: #FFFFFF;
+  	color: black;
+  	margin-top: 1%;
+  	margin-bottom: 3%;
+}
+.pdt{
+	padding-top: 23%;
+}
+.pdb{
+	padding-bottom: 10%;
+}
+#img1{
+	background-image: url("../img/1.jpg");
+	height: 17.5em;
+	background-size: cover;
+}
+.cover{
+	font-size: 20px;
+	height: 12.28em;
+	background-color: rgba(255,120,38,0.7);
+	-webkit-transition: opacity 0.3s;
+	opacity: 0;
+}
+#img1:hover .cover{
+	opacity: 1;
+}
+#img2{
+	background-image: url("../img/2.jpg");
+	height: 17.5em;
+	background-size: cover;
+}
+#img2:hover .cover{
+	opacity: 1;
+}
+#img3{
+	background-image: url("../img/3.jpg");
+	height: 17.5em;
+	background-size: cover;
+}
+#img3:hover .cover{
+	opacity: 1;
+}
+#img4{
+	background-image: url("../img/4.jpg");
+	height: 17.5em;
+	background-size: cover;
+}
+#img4:hover .cover{
+	opacity: 1;
+}
+#img5{
+	background-image: url("../img/5.jpg");
+	height: 17.5em;
+	background-size: cover;
+}
+#img5:hover .cover{
+	opacity: 1;
+}
+#img6{
+	background-image: url("../img/6.jpg");
+	height: 17.5em;
+	background-size: cover;
+}
+#img6:hover .cover{
+	opacity: 1;
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+	.bg{
+	background-color: rgba(0,0,0,0) !important;
+	border: none !important;
+	}
+	h1,a{
+	color: #FFFFFF !important;
+	text-decoration: none !important;
+	}
+}
+@media (min-width: 1200px) {
+  	.bg{
+	background-color: rgba(0,0,0,0) !important;
+	border: none !important;
+	}
+	h1,a{
+	color: #FFFFFF !important;
+	text-decoration: none !important;
+	}
+}
